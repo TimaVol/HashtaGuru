@@ -10,12 +10,31 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    colors: {},
+    colors: {
+      white: "FFFFFF",
+      black: "1F1F26",
+      lightGray: "#B2B7BE",
+      darkGray: "#425466",
+      lightGreen: "#7B9292",
+      darkGreen: "#426666",
+      purpleLight: "#B33CDB",
+      purpleDark: "#231A36",
+      yellow: "#FBBA33",
+      darkBrown: "#42424A",
+      mainTitle:
+        "linear-gradient(#C87C00, #8B3208, rgba(83,32,15,0.8), #010420)",
+    },
     container: {
       padding: "15px",
       center: true,
     },
-    extend: {},
+    extend: {
+      extend: {
+        backgroundImage: {
+          mainGradient: "url('/images/mainGradient.png')",
+        },
+      },
+    },
   },
   plugins: [],
 };
