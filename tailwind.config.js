@@ -11,8 +11,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      white: "FFFFFF",
-      black: "1F1F26",
+      white: "#FFFFFF",
+      black: "#1F1F26",
       lightGray: "#B2B7BE",
       darkGray: "#425466",
       lightGreen: "#7B9292",
