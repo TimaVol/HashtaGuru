@@ -21,6 +21,7 @@ module.exports = {
       purpleDark: "#231A36",
       yellow: "#FBBA33",
       darkBrown: "#42424A",
+      pink: "#DE2879",
       mainTitle:
         "linear-gradient(#C87C00, #8B3208, rgba(83,32,15,0.8), #010420)",
     },
