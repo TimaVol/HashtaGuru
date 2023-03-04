@@ -1,3 +1,4 @@
+import CallBanner from "@/components/CallBanner";
 import Footer from "@/components/Footer";
 import HappyClients from "@/components/HappyClients";
 import Socials from "@/components/Socials";
@@ -11,6 +12,7 @@ export default function Home() {
       <Socials />
       <Solutions />
       <Statistics />
+      <CallBanner />
       <HappyClients />
       <Subscribe />
       <Footer />
