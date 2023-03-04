@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import HappyClients from "@/components/HappyClients";
 import Socials from "@/components/Socials";
 import Solutions from "@/components/Solutions";
@@ -12,6 +13,7 @@ export default function Home() {
       <Statistics />
       <HappyClients />
       <Subscribe />
+      <Footer />
     </>
   );
 }
