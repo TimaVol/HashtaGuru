@@ -30,10 +30,8 @@ module.exports = {
       center: true,
     },
     extend: {
-      extend: {
-        backgroundImage: {
-          mainGradient: "url('/images/mainGradient.png')",
-        },
+      backgroundImage: {
+        mainGradient: "url('../public/images/mainGradient.png')",
       },
     },
   },
