@@ -28,7 +28,7 @@ export default function Card({
         <p className="mb-[30px] leading-6 text-darkGreen">{text}</p>
         <Link
           href={"#"}
-          className="mb-3 flex w-max items-center text-[15px] text-darkGray"
+          className="mb-3 flex w-max items-center text-[15px] font-medium text-darkGray"
         >
           Learn More <Arrow className="ml-2" />
         </Link>
