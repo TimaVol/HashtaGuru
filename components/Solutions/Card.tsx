@@ -17,7 +17,7 @@ export default function Card({
   subTitleColor,
 }: Props) {
   return (
-    <div className="mt-[25px] mb-[70px] flex flex-col items-center gap-x-[50px] md:flex-row md:even:flex-row-reverse">
+    <div className="mt-[25px] mb-[70px] flex flex-col items-center gap-x-[50px] last:mb-0 md:flex-row md:even:flex-row-reverse">
       <div>
         <p
           className={`${subTitleColor} mb-[8px] font-semibold uppercase tracking-wide`}

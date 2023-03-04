@@ -29,7 +29,7 @@ const cards = [
 
 export default function Solutions() {
   return (
-    <div className="container max-w-[789px] pt-[82px] pb-[30px]">
+    <div className="container max-w-[789px] py-[30px] md:pt-[82px] md:pb-[30px]">
       <h2 className="family-poppins mb-[10px] text-center font-semibold text-black">
         Solutions for every need
       </h2>
