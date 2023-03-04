@@ -17,7 +17,7 @@ export default function Card({
   subTitleColor,
 }: Props) {
   return (
-    <div className="flex flex-col items-center md:flex-row md:even:flex-row-reverse">
+    <div className="mt-[25px] mb-[70px] flex flex-col items-center gap-x-[50px] md:flex-row md:even:flex-row-reverse">
       <div>
         <p
           className={`${subTitleColor} mb-[8px] font-semibold uppercase tracking-wide`}
@@ -33,7 +33,12 @@ export default function Card({
           Learn More <Arrow className="ml-2" />
         </Link>
       </div>
-      <Image src={img} alt={title} priority className="sm:w-1/2" />
+      <Image
+        src={img}
+        alt={title}
+        priority
+        className="max-w-[300px] drop-shadow-xl sm:w-1/2"
+      />
     </div>
   );
 }
