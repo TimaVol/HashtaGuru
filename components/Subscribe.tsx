@@ -3,7 +3,7 @@ import { useState } from "react";
 import Rodal from "rodal";
 
 export default function Subscribe() {
-  const [isModalOpen, setIsModalOpen] = useState(true);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
     <>
@@ -24,11 +24,17 @@ export default function Subscribe() {
         </div>
       </div>
 
-      <Rodal visible={isModalOpen} onClose={() => setIsModalOpen(false)}>
-        <div className="mt-5">
-          <h3 className="mb-2">
+      <Rodal
+        visible={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        closeOnEsc
+        width={301}
+        height={200}
+      >
+        <div className="mt-6">
+          <h4 className="mb-2">
             Sorry, but this feature is currently unavailable
-          </h3>
+          </h4>
           <p>The function of subscription is under development.</p>
         </div>
       </Rodal>
