@@ -36,7 +36,6 @@ export default function Card({
       <Image
         src={img}
         alt={title}
-        priority
         className="max-w-[300px] drop-shadow-xl sm:w-1/2"
       />
     </div>
