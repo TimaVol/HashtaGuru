@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Arrow from "@/public/icons/arrow.svg";
+import Arrow from "@/public/icons/arrowWithCircle.svg";
 import Image, { StaticImageData } from "next/image";
 interface Props {
   subTitle: string;
@@ -24,7 +24,7 @@ export default function Card({
         >
           {subTitle}
         </p>
-        <h3 className="mb-[14px] text-black">{title}</h3>
+        <h3 className="family-poppins mb-[14px] text-black">{title}</h3>
         <p className="mb-[30px] leading-6 text-darkGreen">{text}</p>
         <Link
           href={"#"}

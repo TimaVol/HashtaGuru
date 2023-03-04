@@ -21,6 +21,10 @@
   &::-webkit-scrollbar-thumb {
     background-color: #2d3134;
   }
+
+  &:focus-visible {
+    outline: none;
+  }
 }
 
 a {
