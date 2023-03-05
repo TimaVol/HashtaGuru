@@ -11,8 +11,8 @@ module.exports = {
   ],
   theme: {
     colors: {
-      white: "FFFFFF",
-      black: "1F1F26",
+      white: "#FFFFFF",
+      black: "#1F1F26",
       lightGray: "#B2B7BE",
       darkGray: "#425466",
       lightGreen: "#7B9292",
@@ -21,18 +21,17 @@ module.exports = {
       purpleDark: "#231A36",
       yellow: "#FBBA33",
       darkBrown: "#42424A",
-      mainTitle:
-        "linear-gradient(#C87C00, #8B3208, rgba(83,32,15,0.8), #010420)",
+      pink: "#DE2879",
     },
     container: {
       padding: "15px",
       center: true,
     },
     extend: {
-      extend: {
-        backgroundImage: {
-          mainGradient: "url('/images/mainGradient.png')",
-        },
+      backgroundImage: {
+        mainGradient: "url('../public/images/mainGradient.png')",
+        mainTitle:
+          "linear-gradient(#C87C00, #8B3208, rgba(83,32,15,0.8), #010420)",
       },
     },
   },

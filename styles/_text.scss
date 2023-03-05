@@ -2,11 +2,11 @@
 
 h1 {
   font-weight: 700 !important;
-  @include adaptiv-font(70, 94);
+  @include adaptiv-font(40, 94);
 }
 h2 {
   font-weight: 600 !important;
-  @include adaptiv-font(32, 40);
+  @include adaptiv-font(22, 40);
 }
 h3 {
   font-weight: 600 !important;
