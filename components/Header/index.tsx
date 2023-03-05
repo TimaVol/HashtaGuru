@@ -99,6 +99,7 @@ export default function Header() {
               <Image
                 src={headerImg}
                 alt="header img"
+                priority
                 className="max-h-[489px] md:absolute md:-right-[6%] md:w-1/2 lg:w-1/3 2xl:static 2xl:right-auto 2xl:max-h-max"
               />
             </div>
