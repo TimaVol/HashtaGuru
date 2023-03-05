@@ -7,6 +7,8 @@ import Image from "next/image";
 import { slide as Menu } from "react-burger-menu";
 import Burger from "./Burger";
 import Hamburger from "hamburger-react";
+import Link from "next/link";
+import SubMenuArrow from "@/public/icons/subMenuArrow.svg";
 
 const styles = {
   bmBurgerBars: {
@@ -67,6 +69,41 @@ export default function Header() {
                   toggled={isBurgerOpen}
                   toggle={burgerOnOpenHandler}
                 />
+              </div>
+
+              <div className="hidden items-center justify-between md:flex">
+                <div className="relative mr-4 ">
+                  <p className="peer flex cursor-pointer items-center font-medium text-white">
+                    Solution <SubMenuArrow className="ml-2" />
+                  </p>
+
+                  <div className="invisible absolute -bottom-[113px] left-0 h-[110px] w-[100px] rounded border border-lightGray bg-white opacity-0 transition-all duration-300 ease-in-out hover:visible hover:opacity-100 peer-hover:visible peer-hover:opacity-100">
+                    <div className="p-[10px] text-sm font-medium text-black">
+                      <Link href={"#"} className="mb-2 w-max">
+                        About
+                      </Link>
+                      <Link href={"#"} className="mb-2 w-max">
+                        Docs
+                      </Link>
+                      <Link href={"#"} className="mb-2 w-max">
+                        Showcase
+                      </Link>
+                      <Link href={"#"} className="mb-2 w-max">
+                        Explore
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+
+                <Link href={"#"} className="mr-4">
+                  <p className="mr-4 font-medium text-white">Plans</p>
+                </Link>
+                <Link href={"#"} className="mr-4">
+                  <p className="mr-4 font-medium text-white">Resource</p>
+                </Link>
+                <Link href={"#"}>
+                  <p className="mr-4 font-medium text-white">Blog</p>
+                </Link>
               </div>
 
               <div
