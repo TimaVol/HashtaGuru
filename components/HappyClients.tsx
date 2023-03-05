@@ -24,7 +24,7 @@ const sliderItems = [
 ];
 
 export default function HappyClients() {
-  const slider = useRef(null);
+  const slider = useRef<any>(null);
 
   const settings = {
     infinite: true,
@@ -66,13 +66,13 @@ export default function HappyClients() {
 
           <div className="absolute right-0 bottom-0 flex">
             <div
-              onClick={() => slider.current!.slickPrev()}
+              onClick={() => slider.current.slickPrev()}
               className="mr-2 flex h-[29px] w-[29px] cursor-pointer items-center justify-center rounded border-lightGray shadow-2xl shadow-black transition-all md:hover:border"
             >
               <Arrow />
             </div>
             <div
-              onClick={() => slider.current!.slickNext()}
+              onClick={() => slider.current.slickNext()}
               className="flex h-[29px] w-[29px] cursor-pointer items-center justify-center rounded border-lightGray shadow-2xl shadow-black transition-all md:hover:border"
             >
               <Arrow className="rotate-180" />
