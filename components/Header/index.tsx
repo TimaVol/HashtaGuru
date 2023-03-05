@@ -77,7 +77,7 @@ export default function Header() {
               </div>
             </header>
 
-            <div className="flex flex-col-reverse items-center justify-between md:flex-row 2xl:justify-evenly">
+            <div className="flex flex-col-reverse items-center justify-between md:flex-row">
               <div className="md:w-[55%] lg:w-full lg:max-w-[571px]">
                 <h1 className="family-poppins mb-[20px] bg-mainTitle bg-clip-text font-bold leading-10 text-[transparent] md:text-[66px] md:leading-[80px] lg:text-[94px]">
                   Tell a better brand story
