@@ -1,5 +1,5 @@
 import Logo from "@/public/icons/Logo.svg";
-import Facebook from "@/public/icons/facebook.svg";
+import Facebook from "@/public/icons/Facebook.svg";
 import Instagram from "@/public/icons/instagram.svg";
 import Youtube from "@/public/icons/youtube.svg";
 import Arrow from "@/public/icons/subMenuArrow.svg";
