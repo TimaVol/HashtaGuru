@@ -22,8 +22,6 @@ module.exports = {
       yellow: "#FBBA33",
       darkBrown: "#42424A",
       pink: "#DE2879",
-      mainTitle:
-        "linear-gradient(#C87C00, #8B3208, rgba(83,32,15,0.8), #010420)",
     },
     container: {
       padding: "15px",
@@ -32,6 +30,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         mainGradient: "url('../public/images/mainGradient.png')",
+        mainTitle:
+          "linear-gradient(#C87C00, #8B3208, rgba(83,32,15,0.8), #010420)",
       },
     },
   },
