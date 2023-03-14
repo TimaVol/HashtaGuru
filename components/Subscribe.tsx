@@ -17,9 +17,9 @@ export default function Subscribe() {
 
           <div
             onClick={() => setIsModalOpen(true)}
-            className="shadow-cyan-500/50 mx-auto flex w-max cursor-pointer items-center rounded-full bg-purpleDark py-[17px] px-[42px] font-medium shadow-lg"
+            className="shadow-cyan-500/50 mx-auto flex w-max cursor-pointer items-center rounded-full border border-transparent bg-purpleDark py-[17px] px-[42px] font-medium text-white shadow-lg transition-all hover:border-purpleDark hover:bg-white hover:text-purpleDark"
           >
-            Subscribe <Arrow className="ml-[30px] text-white" />
+            Subscribe <Arrow className="ml-[30px]" />
           </div>
         </div>
       </div>
@@ -29,13 +29,13 @@ export default function Subscribe() {
         onClose={() => setIsModalOpen(false)}
         closeOnEsc
         width={301}
-        height={200}
+        height={130}
+        className="text-black"
       >
-        <div className="mt-6">
-          <h4 className="mb-2">
+        <div className="flex h-full items-center">
+          <h5 className="text-center">
             Sorry, but this feature is currently unavailable
-          </h4>
-          <p>The function of subscription is under development.</p>
+          </h5>
         </div>
       </Rodal>
     </>

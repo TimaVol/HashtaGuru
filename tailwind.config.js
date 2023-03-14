@@ -22,6 +22,7 @@ module.exports = {
       yellow: "#FBBA33",
       darkBrown: "#42424A",
       pink: "#DE2879",
+      transparent: "transparent",
     },
     container: {
       padding: "15px",
