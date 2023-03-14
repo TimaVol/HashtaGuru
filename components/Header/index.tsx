@@ -30,7 +30,7 @@ const styles = {
     top: "0",
   },
   bmMenu: {
-    background: "#373a47",
+    background: "white",
     padding: "2.5em 1.5em 0",
     fontSize: "1.15em",
   },
@@ -108,7 +108,7 @@ export default function Header() {
 
               <div
                 onClick={() => setIsModalOpen(true)}
-                className="md:display shadow-cyan-500/50 hidden w-max max-w-[202px] cursor-pointer items-center rounded-full bg-white bg-opacity-5 p-[15px] font-medium text-white shadow-lg md:flex md:py-[17px] md:px-[42px]"
+                className="md:display shadow-cyan-500/50 hidden w-max max-w-[202px] cursor-pointer items-center rounded-full bg-white bg-opacity-5 p-[15px] font-medium text-white shadow-lg transition-all hover:bg-white hover:text-black md:flex md:py-[17px] md:px-[42px]"
               >
                 <p>Request Demo</p>
               </div>
@@ -127,9 +127,9 @@ export default function Header() {
 
                 <div
                   onClick={() => setIsModalOpen(true)}
-                  className="shadow-cyan-500/50 flex w-max cursor-pointer items-center rounded-full bg-purpleDark p-[15px] font-medium text-white shadow-lg md:py-[17px] md:px-[35px]"
+                  className="shadow-cyan-500/50 flex w-max cursor-pointer items-center rounded-full border border-transparent bg-purpleDark p-[15px] font-medium text-white shadow-lg transition-all hover:border-purpleDark hover:bg-white hover:text-purpleDark md:py-[17px] md:px-[35px]"
                 >
-                  <p>Request Demo</p> <Arrow className="ml-[16px] text-white" />
+                  <p>Request Demo</p> <Arrow className="ml-[16px]" />
                 </div>
               </div>
 
@@ -150,13 +150,13 @@ export default function Header() {
         onClose={() => setIsModalOpen(false)}
         closeOnEsc
         width={301}
-        height={200}
+        height={130}
+        className="text-black"
       >
-        <div className="mt-6">
-          <h4 className="mb-2">
+        <div className="flex h-full items-center">
+          <h5 className="text-center">
             Sorry, but this feature is currently unavailable
-          </h4>
-          <p>The function of request demo is under development.</p>
+          </h5>
         </div>
       </Rodal>
 
